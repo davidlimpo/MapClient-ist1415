@@ -1,0 +1,8 @@
+C:\Users\David\Desktop\MapClientV15\MapRemotingInterfaces\bin\Debug\PADIMapNoReduce.dll
+C:\Users\David\Desktop\MapClientV15\MapRemotingInterfaces\bin\Debug\PADIMapNoReduce.pdb
+C:\Users\David\Desktop\MapClientV15\MapRemotingInterfaces\obj\Debug\PADIMapNoReduce.dll
+C:\Users\David\Desktop\MapClientV15\MapRemotingInterfaces\obj\Debug\PADIMapNoReduce.pdb
+C:\Users\RuiDiogo\Documents\5ano\PADI\projecto\MapClientV16\MapRemotingInterfaces\bin\Debug\PADIMapNoReduce.dll
+C:\Users\RuiDiogo\Documents\5ano\PADI\projecto\MapClientV16\MapRemotingInterfaces\bin\Debug\PADIMapNoReduce.pdb
+C:\Users\RuiDiogo\Documents\5ano\PADI\projecto\MapClientV16\MapRemotingInterfaces\obj\Debug\PADIMapNoReduce.dll
+C:\Users\RuiDiogo\Documents\5ano\PADI\projecto\MapClientV16\MapRemotingInterfaces\obj\Debug\PADIMapNoReduce.pdb

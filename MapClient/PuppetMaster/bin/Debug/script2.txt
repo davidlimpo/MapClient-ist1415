@@ -1,0 +1,26 @@
+20001
+0
+WORKER 1 tcp://localhost:20001/PM tcp://localhost:30001/W
+WAIT 5
+WORKER 2 tcp://localhost:20001/PM tcp://localhost:30002/W tcp://localhost:30001/W
+
+WAIT 5
+WORKER 3 tcp://localhost:20001/PM tcp://localhost:30003/W tcp://localhost:30002/W
+WAIT 5
+STATUS
+
+SUBMIT tcp://localhost:30001/W dll\\pl10.txt c: 3 CharCountMapper ./dll\\LibMapperCharCount.dll
+
+WAIT 70
+
+FREEZEC 1
+WAIT 15
+STATUS
+WAIT 2
+SUBMIT tcp://localhost:30002/W dll\\pl.txt c: 10 ParadiseCountMapper ./dll\\LibMapperParadiseCount.dll
+
+
+
+WAIT 5
+
+STATUS
